@@ -1,0 +1,16 @@
+{
+  "name": "trabalho_final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cypress": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  }
+}
