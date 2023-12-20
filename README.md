@@ -2,16 +2,16 @@
 Este projeto refere-se ao trabalho final do curso Analista de Testes, da escola Mentorama.
 Tendo como base o e-commerce fictício criado pela escola, chamado "Goya".
 
-#Requisitos para execução dos testes:
+Requisitos para execução dos testes:
 Node.js e Cypress.
 
-#Dependências: 
+Dependências: 
 - Instalar via terminal o Node.js:
 npm i node
 - Instalar via terminal o Cypress:
 npm i cypress
 
-#Execução dos testes:
+Execução dos testes:
 - Clonar o projeto na sua máquina;
 - Instalar as dependências, via terminal;
 - Executar o cypress, com: npx cypress open;
