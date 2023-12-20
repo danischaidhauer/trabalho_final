@@ -1,2 +1,12 @@
-# Ignore a pasta node_modules
-/node_modules
+# Arquivos e diretórios do Node.js a serem ignorados
+node_modules/
+npm-debug.log
+.env
+
+# Arquivos gerados pela IDE
+.vscode/
+.idea/
+
+# Arquivos de compilação
+/dist/
+/build/
