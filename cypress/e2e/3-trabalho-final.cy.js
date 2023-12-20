@@ -20,14 +20,14 @@ describe('loja Goya', () => {
         cy.get('.woocommerce-button').click();
       })
       
-      it('Esqueci minha senha', () => {
+      it('Recuperar minha senha', () => {
         cy.get('a[href="https://shop.lm.mentorama.com.br/?page_id=18"]').click();
         cy.get('.woocommerce-LostPassword > a').click();
         cy.get('.fl-label').type('juanmariodossantos@elconsultoria.com.br');
         cy.get('.woocommerce-Button').click();
       })
 
-      it('Clicar em comprar um item feminino', () => {
+      it('Adquirir item do catálogo feminino com sucesso', () => {
         cy.get('.header-left-items > .hamburger-menu > .menu-toggle > .bars').click();
         cy.get('#menu-main-2 > .menu-item-type-post_type > .sub-menu > .menu-item-4087 > a').click();
         cy.get('.post-3645').click();
@@ -37,7 +37,7 @@ describe('loja Goya', () => {
       })
 
       
-      it('Clicar em comprar um item masculino', () => {
+      it('Adquirir item do catálogo masculino com sucesso', () => {
         cy.get('.header-left-items > .hamburger-menu > .menu-toggle > .bars').click();
         cy.get('#menu-main-2 > .menu-item-type-post_type > .sub-menu > .menu-item-4085 > a').click();
         cy.wait(2000);
@@ -45,7 +45,7 @@ describe('loja Goya', () => {
         cy.get('.et-pro-summary-content > .cart > .et-wishlist-div-open > .single_add_to_cart_button').click();    
        })
        
-      it('Clicar em comprar um item em caixas de som', () => {
+      it('Adquirir item do catálogo caixas de som com sucesso', () => {
         cy.get('.header-left-items > .hamburger-menu > .menu-toggle > .bars').click();
         cy.get('#menu-main-2 > .menu-item-type-post_type > .sub-menu > .menu-item-4086 > a').click();
         cy.wait(2000);
