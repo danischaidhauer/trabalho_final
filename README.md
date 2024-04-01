@@ -1,4 +1,5 @@
-# trabalho_final_mentorama
+# Trabalho Final Curso Analista de Testes
+## Escola Mentorama
 Este projeto refere-se ao trabalho final do curso Analista de Testes, da escola Mentorama.
 Tendo como base o e-commerce fictício criado pela escola, chamado "Goya".
 
